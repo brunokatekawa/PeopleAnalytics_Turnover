@@ -259,7 +259,7 @@ All these 3 elements show that the model is able to make good predictions, of co
 
 - **Test other techniques** to train the model, including artificial neural networks (e.g. TensorFlow, PyTorch).
 
-- **Include Design Thinking applied to Employee Experience aided by Data Science**, because only identifying the employees is not enough if companies don't know how to approach them.
+- **Include Design Thinking applied to Employee Experience aided by Data Science**, because only identifying the employees is not enough if companies don't know how to approach them. Actually, this can be the part two of this project which I described in [this Medium post](https://medium.com/@brunokatekawa/on-people-analytics-employee-turnover-b493cec75f17).
 
 <br>
 

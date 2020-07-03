@@ -253,13 +253,13 @@ All these 3 elements show that the model is able to make good predictions, of co
 
 # 4.0 Next Steps
 
-- Build an **analytics dashboard** in a data visualization tool (e.g. Tableau, Power BI) so the HR team can have a clear view about the characteristics of employees that are most likely to leave the company.
+**4.1 Build an analytics dashboard** in a data visualization tool (e.g. Tableau, Power BI) so the HR team can have a clear view about the characteristics of employees that are most likely to leave the company.
 
-- **Recommend decisions** to the HR team based on groups of employees so it can make the right initiatives to prevent turnover.
+**4.2 Recommend decisions** to the HR team based on groups of employees so it can make the right initiatives to prevent turnover.
 
-- **Test other techniques** to train the model, including artificial neural networks (e.g. TensorFlow, PyTorch).
+**4.3 Test other techniques** to train the model, including artificial neural networks (e.g. TensorFlow, PyTorch) and SMOTE for balancing classes.
 
-- **Include Design Thinking applied to Employee Experience aided by Data Science**, because only identifying the employees is not enough if companies don't know how to approach them. Actually, this can be the part two of this project which I described in [this Medium post](https://medium.com/@brunokatekawa/on-people-analytics-employee-turnover-b493cec75f17).
+**4.4 Include Design Thinking applied to Employee Experience aided by Data Science**, because only identifying the employees is not enough if companies don't know how to approach them. Actually, this can be the **part two of this project** which I described in [**this Medium post**](https://medium.com/@brunokatekawa/on-people-analytics-employee-turnover-b493cec75f17).
 
 <br>
 

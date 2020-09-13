@@ -47,6 +47,9 @@ Check it live at: https://people-analytics-bk.herokuapp.com/
 
 **OBS: It may take a while to load the app, because I'm using the free tier of Heroku and in this tier app hibernate after 30 min of inactivity.**
 
+### [July/2020] Solution Updates
+Make sure to check the [part 2](https://medium.com/designed-by-data/on-people-analytics-employee-turnover-b493cec75f17) of this project as I **include Design Thinking applied to Employee Experience aided by Data Science**. I hope it is a very insightful source of information for companies that are concerned with their workforce.
+
 <br>
 
 ## 3.1 What drove the solution
@@ -272,4 +275,3 @@ https://www.gallup.com/workplace/247391/fixable-problem-costs-businesses-trillio
 https://www.gallup.com/workplace/260564/heard-quit-rate-win-war-talent.aspx
 
 https://toggl.com/blog/cost-of-hiring-an-employee
-

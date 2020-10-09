@@ -134,33 +134,34 @@ As observed, people who are daily making more money tend to stay. As the median 
 
 Several other hypotheses were outlined and validated.
 
-| Hypothesis                                                                                   | Conclusion                                                                                                                                                          |
-|----------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| H1\. People up to 40s tend to leave\.                                                        | True                                                                                                                                                                |
-| H2\. People that have higher degree of education tend to leave more\.                        | False                                                                                                                                                               |
-| H3\. People who live far from work tend to leave\.                                           | True                                                                                                                                                                |
-| H4\. Single people tend to leave more\.                                                      | True                                                                                                                                                                |
-| H5\. People who make overtime tend to leave more\.                                           | True                                                                                                                                                                |
-| H6\. People who present higher performance ratings tend to leave more\.                      | False                                                                                                                                                               |
-| H7\. People who present lower performance ratings tend to leave more\.                       | True                                                                                                                                                                |
-| H8\. People who have lower job level tend to leave more\.                                    | True                                                                                                                                                                |
-| H9\. People who weren't promoted for long time tend to leave more\.                          | False                                                                                                                                                               |
-| H10\. People who are in the current role for long time tend to leave more\.                  | False                                                                                                                                                               |
-| H11\. People who feel less involved with the job tend to leave more\.                        | False                                                                                                                                                               |
-| H12\. People who feel less satisfied with the job tend to leave more\.                       | False                                                                                                                                                               |
-| H13\. People who feel less satisfied with the environment tend to leave more\.               | We can't really say if people who feel less satisfied with the environment tend to leave more, because the counts are almost equal for each level of satisfaction\. |
-| H14\. People who have lower work life balance tend to leave more\.                           | False                                                                                                                                                               |
-| H15\. People who professionally worked for more years tend to not leave\.                    | True                                                                                                                                                                |
-| H16\. People who worked at the same company for more years tend not to leave\.               | True                                                                                                                                                                |
-| H17\. People who are job hoppers tend to leave more\.                                        | False                                                                                                                                                               |
-| H18\. People who are making more money tend not to leave\.                                   | True                                                                                                                                                                |
-| H19\. People who have shorter salary hike range tend to leave\.                              | True                                                                                                                                                                |
-| H20\. People who received less training last year tend to leave more\.                       | People who received few and many training sessions last year tend to stay\. However, people who are in the middle tend to leave\.                                   |
-| H21\. People who have been working for the same manager for short years tend to leave more\. | True                                                                                                                                                                |
-| H22\. People who have lower quality of relationship with the manager tend to leave more\.    | False                                                                                                                                                               |
-| H23\. People who travel more frequently tend to leave more\.                                 | False                                                                                                                                                               |
-| H24\. Which departments has more turnover?                                                   | As observed, Research & Development has more turnovers than other departments\.                                                                                     |
-| H25\. Which education field has more turnover?                                               | Life Sciences is the education field which has more turnover, followed by Medical and Marketing\.                                                                   |
+| ID  | Hypothesis                                                                           | Conclusion                                                                                                                                                                     |
+|-----|--------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| H1  | People up to 40s tend to leave                                                       | TRUE                                                                                                                                                                           |
+| H2  | People that have higher degree of education tend to leave more                       | FALSE                                                                                                                                                                          |
+| H3  | People who live far from work tend to leave                                          | TRUE                                                                                                                                                                           |
+| H4  | Single people tend to leave more                                                     | TRUE                                                                                                                                                                           |
+| H5  | People who make overtime tend to leave more                                          | TRUE                                                                                                                                                                           |
+| H6  | People who present higher performance ratings tend to leave more                     | FALSE                                                                                                                                                                          |
+| H7  | People who present lower performance ratings tend to leave more                      | FALSE                                                                                                                                                                          |
+| H8  | People who have lower job level tend to leave more                                   | TRUE                                                                                                                                                                           |
+| H9  | People who weren't promoted for long time tend to leave more                         | FALSE                                                                                                                                                                          |
+| H10 | People who are in the current role for long time tend to leave more                  | FALSE                                                                                                                                                                          |
+| H11 | People who feel less involved with the job tend to leave more                        | FALSE                                                                                                                                                                          |
+| H12 | People who feel less satisfied with the job tend to leave more                       | FALSE                                                                                                                                                                          |
+| H13 | People who feel less satisfied with the environment tend to leave more               | As observed, we can't really say if people who feel less satisfied with the environment tend to leave more, because the counts are almost equal for each level of satisfaction |
+| H14 | People who have lower work life balance tend to leave more                           | FALSE                                                                                                                                                                          |
+| H15 | People who professionally worked for more years tend to not leave                    | TRUE                                                                                                                                                                           |
+| H16 | People who worked at the same company for more years tend not to leave               | TRUE                                                                                                                                                                           |
+| H17 | People who are job hoppers tend to leave more                                        | FALSE                                                                                                                                                                          |
+| H18 | People who are making more money tend not to leave                                   | TRUE                                                                                                                                                                           |
+| H19 | People who have shorter salary hike range tend to leave                              | TRUE                                                                                                                                                                           |
+| H20 | People who received less training last year tend to leave more                       | People who received few and many training sessions last year tend to stay\. However, people who are in the middle tend to leave                                                |
+| H21 | People who have been working for the same manager for short years tend to leave more | TRUE                                                                                                                                                                           |
+| H22 | People who have lower quality of relationship with the manager tend to leave more    | FALSE                                                                                                                                                                          |
+| H23 | People who travel more frequently tend to leave more                                 | FALSE                                                                                                                                                                          |
+| H24 | Which departments has more turnover?                                                 | As observed, Research & Development has more turnovers than other departments                                                                                                  |
+| H25 | Which education field has more turnover?                                             | As observed, Life Sciences is the education field which has more turnover, followed by Medical and Marketing                                                                   |
+
 
 <br>
 
@@ -172,10 +173,6 @@ Tests were made using different algorithms.
 ![](img/ml_alg_comparison.png)
 
 
-#### PR Curve
-![](img/ml_alg_pr_auc.png)
-
-
 #### Confusion Matrix
 ![](img/ml_alg_cm.png)
 
@@ -183,7 +180,7 @@ Tests were made using different algorithms.
 
 #### 3.1.3.1 Conclusion
 
-As we are dealing with **imbalaced data set**, the most relevant metric, in this case, is the **F1-Score** which is used **when the False Negatives and False Positives are crucial**. For this project, False Negatives are crucial, since losing these people could lead to company financial loss. Thus, the algorithm that best suits the needs is **Balanced Random Forest Classifier**.
+As observed and according to our business metrics, we're trying to minimize the FN and maximize the TP. Thus, the algorithm that best suits our needs is the **`LogisticRegression`**. Although, it has the highest FP, for our case, it's not a bad idea to check on these employees, as we can discover new things about them and motivate them.
 
 <br>
 
@@ -202,15 +199,15 @@ In addition, we can outline a **best-worst scenario** for an employee who leaves
 | **Cost \($\)**                   | 4,000         | 7,645          |
 | **Time to fill a position \(days\)** | 42        | 52             |
 
-Testing the model using a data set containing 368 records, it was able to correctly identify 42 (True Positives) and miss 17 (the False Negatives) from a total of 59 employees who tend to leave. Translating to the best-worst scenario, this means:
+Testing the model using a data set containing 294 records, it was able to correctly identify 34 (True Positives) and miss 13 (the False Negatives) from a total of 47 employees who tend to leave. Translating to the best-worst scenario, this means:
 
 |                                  | Best scenario | Worst scenario |
 |----------------------------------|---------------|----------------|
-| **Total loss prevented \($\)**   | 168,000       |     321,090    |
-| **Total time saved \(days\)**    | 1,764         | 2,184          |
+| **Total loss prevented \($\)**   | 136,000       | 259,930        |
+| **Total time saved \(days\)**    | 1,428         | 1,768          |
 
 
-In addition, **without the model**, the company would have 59 employees that could leave, translating it to **a total loss of \$ 236,000 in the best scenario and \$ 451,055 in the worst scenario**.
+In addition, **without the model**, the company would have 47 employees that could leave, translating it to **a total loss of \$ 188,000 in the best scenario and \$ 359,315 in the worst scenario**.
 
 <br>
 
@@ -220,21 +217,24 @@ The chosen algorithm was the **Balanced Random Forest**.
 
 #### Precision and Recall, AUC and Confusion Matrix
 
-| Accuracy | F1-Score | PR AUC |
-|----------|----------|--------|
-| 0.779891 | 0.509091 | 0.405141 |
+| precision | recall    | f1\-score | roc auc   | accuracy  |
+|-----------|-----------|-----------|-----------|-----------|
+| 0\.32381  | 0\.723404 | 0\.447368 | 0\.777156 | 0\.714286 |
+
 
 <br>
 
 |              | precision | recall | f1\-score | support |
 |-------------:|----------:|-------:|----------:|--------:|
-| 0            | 0\.94     | 0\.79  | 0\.86     | 309     |
-| 1            | 0\.40     | 0\.71  | 0\.51     | 59      |
-| accuracy     |           |        | 0\.78     | 368     |
-| macro avg    | 0\.67     | 0\.75  | 0\.68     | 368     |
-| weighted avg | 0\.85     | 0\.78  | 0\.80     | 368     |
+| 0            | 0\.93     | 0\.71  | 0\.81     | 247     |
+| 1            | 0\.32     | 0\.72  | 0\.45     | 47      |
+| accuracy     |           |        | 0\.71     | 294     |
+| macro avg    | 0\.63     | 0\.72  | 0\.63     | 294     |
+| weighted avg | 0\.83     | 0\.71  | 0\.75     | 294     |
 
-![](img/model-pr-auc-cm.png)
+<br>
+
+![](img/model-roc-cm.png)
 
 <br>
 
@@ -242,15 +242,7 @@ The chosen algorithm was the **Balanced Random Forest**.
 
 ![](img/model-pb-dist.png)
 
-Here, we are evaluating how normally distributed are the probabilities predicted by the model.
-
-- **Histogram of predicted probabilities:** it nearly follows a normal distribution. The normal distribution is depicted in black-line bell shaped curve.
-
-- **Probability Plot:** when can observe that almost all the points are or on the red diagonal line or close to it, which means that the probability distribution is near normal.
-
-- **ECDF plot:** the cumulative distribution function almost follows the half of a normal distribution, which means that the probability distribution is near normal.
-
-All these 3 elements show that the model is able to make good predictions, of course, it can always be improved.
+Looking at the `Probability Plot` for `LogisticRegression` the points are well distributed, it forms a smooth S-shaped curve and the red diagonal seems to form a 45 angle with the X-axis. Thus, this just reinforces our previous decision on choosing the `LogisticRegression` as the classifier for the project.
 
 <br>
 
@@ -260,7 +252,7 @@ All these 3 elements show that the model is able to make good predictions, of co
 
 **4.2 Recommend decisions** to the HR team based on groups of employees so it can make the right initiatives to prevent turnover.
 
-**4.3 Test other techniques** to train the model, including artificial neural networks (e.g. TensorFlow, PyTorch) and SMOTE for balancing classes.
+**4.3 Test other techniques** to train the model, including artificial neural networks (e.g. TensorFlow, PyTorch).
 
 **4.4 Include Design Thinking applied to Employee Experience aided by Data Science**, because only identifying the employees is not enough if companies don't know how to approach them. Actually, this can be the **part two of this project** which I described in [**this Medium post**](https://medium.com/@brunokatekawa/on-people-analytics-employee-turnover-b493cec75f17).
 

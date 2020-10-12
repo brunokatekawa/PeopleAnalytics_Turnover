@@ -213,9 +213,9 @@ In addition, **without the model**, the company would have 47 employees that cou
 
 ### 3.1.5 Machine Learning Performance for the chosen algorithm
 
-The chosen algorithm was the **Balanced Random Forest**.
+The chosen algorithm was the **Logistic Regression**.
 
-#### Precision and Recall, AUC and Confusion Matrix
+#### Precision and Recall, AUC, Confusion Matrix and other metrics
 
 | precision | recall    | f1\-score | roc auc   | accuracy  |
 |-----------|-----------|-----------|-----------|-----------|

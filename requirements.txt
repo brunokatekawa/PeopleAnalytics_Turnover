@@ -29,7 +29,7 @@ ipywidgets==7.5.1
 jedi==0.17.1
 Jinja2==2.11.2
 jmespath==0.10.0
-joblib==0.15.1
+joblib==1.2.0
 jsonschema==3.2.0
 kiwisolver==1.2.0
 MarkupSafe==1.1.1

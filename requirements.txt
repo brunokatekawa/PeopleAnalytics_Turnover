@@ -34,8 +34,8 @@ jsonschema==3.2.0
 kiwisolver==1.2.0
 MarkupSafe==1.1.1
 matplotlib==3.2.2
+numpy==1.22.0
 mistune==2.0.3
-numpy==1.19.0
 packaging==20.4
 pandas==1.0.5
 pandocfilters==1.4.2
